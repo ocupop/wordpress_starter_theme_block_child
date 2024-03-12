@@ -1,0 +1,268 @@
+@import url('https://use.typekit.net/wzw6yzl.css');
+
+@import url('https://webfonts.fontstand.com/WF-031559-2b8cdb5c18c2686f822711d4a431fccf.css');
+
+/**
+ * Custom `@font-face` rules
+ *
+ * These will be added immediately before Tailwind’s `base` layer.
+ */
+
+/* Load the fonts. */
+
+body{
+  /* This is set in theme.json*/
+  /* font-family: 'Berlingske Serif Regular', sans-serif; */
+}
+
+*, ::before, ::after{
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  
+}
+
+::backdrop{
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  
+}
+
+/**
+ * Custom styles to immediately follow Tailwind’s `base` layer
+ *
+ * “Add things like base typography styles [or] opinionated global resets.”
+ *
+ * — from https://tailwindcss.com/docs/plugins#adding-base-styles
+ */
+
+/**
+ * This uses the background and foreground colors declared in the
+ * `theme.json` file and is applied both to the frontend and in the block
+ * editor.
+*/
+
+html{
+  height: 100%
+}
+
+body{
+  height: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --tw-text-opacity: 1;
+  color: rgb(73 73 73 / var(--tw-text-opacity))
+}
+
+ul{
+  margin-left: 0px;
+  padding-left: 0px
+}
+
+blockquote{
+  margin: 0px;
+  padding: 0px
+}
+
+/**
+ * Custom styles to immediately follow Tailwind’s `utilities` layer
+ *
+ * Add your own utility classes to this theme. Complex utility classes should
+ * be added using Tailwind’s plugin system:
+ *
+ * https://tailwindcss.com/docs/plugins#adding-utilities
+ */
+
+.fade {
+  transition: opacity .15s linear
+}
+
+.fade:not(.show){
+  opacity:0
+}
+
+@media (min-width:782px){
+  .hide-on-desktop{
+    display: none
+  }
+}
+
+@media (max-width:781px){
+  .hide-on-mobile{
+    display: none
+  }
+}
+
+@media (min-width:900px){
+  .hide-on-desktop-nav{
+    display: none
+  }
+}
+
+@media (max-width:899px){
+  .hide-on-mobile-nav{
+    display: none
+  }
+}
+
+@media (max-width: 781px){
+  .no-x-padding-on-mobile{
+    padding-left: 0px !important;
+    padding-right: 0px !important
+  }
+}
+
+@media (min-width: 640px){
+  .alternate-horizontal-columns ul li.wp-block-post:nth-child(odd) .wp-block-columns{
+    flex-direction: row-reverse
+  }
+}
+
+@media (max-width: 781px) {
+  .reverse-mobile {
+    flex-direction: column-reverse;
+  }
+}
+
+.flourish{
+  position: relative;
+  display: inline-block
+}
+
+.flourish::after{
+  background-image:url(library/images/flourish.svg);
+  position: absolute;
+  bottom: -1rem;
+  right: -2rem;
+  height: 2.75rem;
+  width: 2.75rem;
+  background-repeat: no-repeat;
+  -o-object-fit: contain;
+     object-fit: contain;
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
+.flourish::after::before{
+  --tw-content: '';
+  content: var(--tw-content)
+}
+
+figure.wp-caption{
+  background-color: transparent;
+  padding-top: 0px;
+  padding-bottom: 0px
+}
+
+figure.wp-caption img{
+}
+
+figure.wp-caption figcaption{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 247 / var(--tw-bg-opacity));
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(73 73 73 / var(--tw-text-opacity))
+}
+
+/*
+This stretches the background color of a group to be full width of the content.
+For this to work, make sure the group is set to "Inner blocks use content width".
+*/
+
+.is-layout-constrained{
+  max-width:100% !important;
+}
+

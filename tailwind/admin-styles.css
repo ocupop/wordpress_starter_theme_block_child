@@ -1,0 +1,17 @@
+
+@import "./base/fonts.css";
+
+@import "tailwindcss/base";
+@import "./base/base.css";
+
+@import-glob "./components/**/!(components).css";
+
+@import "./utilities/utilities.css";
+/*
+This stretches the background color of a group to be full width of the content.
+For this to work, make sure the group is set to "Inner blocks use content width".
+*/
+.is-layout-constrained{
+  max-width:100% !important;
+}
+

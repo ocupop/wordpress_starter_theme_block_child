@@ -1,0 +1,24 @@
+
+.has-bkg-pattern{
+  @apply relative;
+  > * {
+    @apply relative z-[1];
+  }
+  &.has-primary-background-color{
+    &:after,
+    &:before{
+      @apply before:content-[''] absolute h-full top-0 w-1/4 bg-cover;
+    }
+    &:before{
+      @apply left-0;
+      background-position:left center;
+      background-image:url(library/images/primary-bkg-1.jpg)
+    }
+
+    &:after{
+      @apply right-0;
+      background-position:right center;
+      background-image:url(library/images/primary-bkg-2.jpg)
+    }
+  }
+}

@@ -1,0 +1,14 @@
+/**
+ * Custom `@font-face` rules
+ *
+ * These will be added immediately before Tailwind’s `base` layer.
+ */
+
+/* Load the fonts. */
+@import url('https://use.typekit.net/wzw6yzl.css');
+@import url('https://webfonts.fontstand.com/WF-031559-2b8cdb5c18c2686f822711d4a431fccf.css');
+
+ body{
+  /* This is set in theme.json*/
+  /* font-family: 'Berlingske Serif Regular', sans-serif; */
+ }

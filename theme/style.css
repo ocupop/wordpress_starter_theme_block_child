@@ -1,0 +1,18 @@
+/*
+Theme Name:   Ocupop WordPress Child Theme
+Description:  Can be used as a child of any theme. This starter example utilizes Wordpress Block Themes, and is a child of Twenty Twenty-Four
+Author:       Paul Stroot with Ocupop
+Template:     twentytwentyfour
+Version:      1.0.0
+*/
+
+/*
+
+DO NOT EDIT "theme/library/css/style.css" directly
+
+All custom CSS ctyles are generated using tailwind.
+Edit your custom styles in the "./tailwind/**" directory
+These styles are all compiled and the file "theme/library/css/style.css" is generated,
+which is then enqueued into the page.
+
+*/

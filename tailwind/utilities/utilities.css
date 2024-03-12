@@ -1,0 +1,78 @@
+/**
+ * Custom styles to immediately follow Tailwind’s `utilities` layer
+ *
+ * Add your own utility classes to this theme. Complex utility classes should
+ * be added using Tailwind’s plugin system:
+ *
+ * https://tailwindcss.com/docs/plugins#adding-utilities
+ */
+
+
+
+.fade {
+  -webkit-transition: opacity .15s linear;
+  transition: opacity .15s linear
+}
+.fade:not(.show){opacity:0}
+
+@media (min-width:782px){
+  .hide-on-desktop{
+    @apply hidden;
+  }
+}
+@media (max-width:781px){
+  .hide-on-mobile{
+    @apply hidden;
+  }
+}
+
+
+@media (min-width:900px){
+  .hide-on-desktop-nav{
+    @apply hidden;
+  }
+}
+@media (max-width:899px){
+  .hide-on-mobile-nav{
+    @apply hidden;
+  }
+}
+
+.no-x-padding-on-mobile{
+  @media (max-width: 781px){
+    @apply px-0 !important;
+  }
+}
+
+.alternate-horizontal-columns{
+  ul li.wp-block-post:nth-child(odd){
+    .wp-block-columns{
+      @apply sm:flex-row-reverse;
+    }
+  }
+}
+
+@media (max-width: 781px) {
+  .reverse-mobile {
+      flex-direction: column-reverse;
+  }
+}
+
+
+.flourish{
+  @apply inline-block relative;
+  &::after{
+    background-image:url(library/images/flourish.svg);
+    @apply before:content-[''] absolute -bottom-4 -right-8 w-11 h-11 object-contain bg-no-repeat content-[''];
+  }
+}
+
+figure.wp-caption{
+  @apply bg-transparent;
+  @apply py-0;
+  img{
+  }
+  figcaption{
+    @apply bg-light-gray text-contrast my-0 p-2 text-sm;
+  }
+}

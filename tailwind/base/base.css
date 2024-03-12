@@ -1,0 +1,28 @@
+/**
+ * Custom styles to immediately follow Tailwind’s `base` layer
+ *
+ * “Add things like base typography styles [or] opinionated global resets.”
+ *
+ * — from https://tailwindcss.com/docs/plugins#adding-base-styles
+ */
+
+/**
+ * This uses the background and foreground colors declared in the
+ * `theme.json` file and is applied both to the frontend and in the block
+ * editor.
+*/
+
+
+
+html{
+  @apply h-full;
+}
+body {
+	@apply bg-base text-contrast font-sans h-full;
+}
+ul{
+  @apply ml-0 pl-0;
+}
+blockquote{
+  @apply m-0 p-0;
+}

@@ -1,0 +1,32 @@
+/**
+ * Custom styles to immediately follow Tailwind’s `components` layer
+ *
+ * “Add more opinionated, complex classes like buttons, form controls, alerts,
+ * etc; the sort of pre-built components you often see in other frameworks that
+ * you might need to override with utility classes.”
+ *
+ * — from https://tailwindcss.com/docs/plugins#adding-components
+ */
+
+/* .container{
+  @apply mx-auto px-4;
+} */
+
+
+
+.entry-content > .alignwide {
+	/* Wide width from the `theme.json` file */
+	/* @apply max-w-wide; */
+}
+
+.entry-content > .alignfull {
+	/* @apply max-w-none; */
+}
+
+.entry-content > .alignleft {
+	/* @apply float-left mr-8; */
+}
+
+.entry-content > .alignright {
+	/* @apply float-right ml-8; */
+}
