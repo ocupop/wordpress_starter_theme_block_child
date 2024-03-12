@@ -13,9 +13,9 @@
 
 ## Docs (note: these doc files are hosted under the "starter" theme)
 * [Setting up your Development environment for the first time.](../starter/docs/local_dev_setup.md)
-* [Theme Development](../starter/docs/theme_setup_and_dev.md)
-* [Plug-ins](../starter/docs/plugins.md)
-* [Using PHP CodeSniffer](../starter/docs/phpcs.md)
-* [Sending emails from WordPress](../starter/docs/emailing_from_wp.md)
+* [Theme Development](https://github.com/ocupop/wordpress_starter_theme/blob/main/docs/theme_setup_and_dev.md)
+* [Plug-ins](https://github.com/ocupop/wordpress_starter_theme/blob/main/docs/plugins.md)
+* [Using PHP CodeSniffer](https://github.com/ocupop/wordpress_starter_theme/blob/main/docs/phpcs.md)
+* [Sending emails from WordPress](https://github.com/ocupop/wordpress_starter_theme/blob/main/docs/emailing_from_wp.md)
 
 =======
